@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parrallel Testing">
+	<test name="My Test100" parallel="methods" thread-count="2">
+	<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="testengine.BasicAssertion2usingbrowser"> </class>
+			
+			
+		</classes>
+	</test>
+	</suite>

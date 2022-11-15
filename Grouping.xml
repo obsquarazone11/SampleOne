@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My Group Suite">
+<test name="My Test Suite">
+
+<groups>
+<run>
+<include name="Critical">
+</include>
+</run>
+</groups>
+<classes>
+<class name="testengine.BasicTest">
+</class>
+</classes>
+		
+</test>
+</suite>

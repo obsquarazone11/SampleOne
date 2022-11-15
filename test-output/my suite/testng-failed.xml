@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [my suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="assignment test(failed)">
+    <classes>
+      <class name="testengine.Assignment66">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="aworkersPage"/>
+          <include name="logifunction"/>
+        </methods>
+      </class> <!-- testengine.Assignment66 -->
+    </classes>
+  </test> <!-- assignment test(failed) -->
+</suite> <!-- Failed suite [my suite] -->

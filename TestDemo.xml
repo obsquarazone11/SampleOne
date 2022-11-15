@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My Testsuite">
+	<test name="ChromeTest" parallel="classes" thread-count="2">
+		<parameter name="Browser" value="chrome"></parameter>
+		
+		<classes>
+			<class name="testengine.TestDemo">
+			</class>
+			<class name="testengine.BasicTest"/>
+		</classes>
+		
+	</test>
+</suite>

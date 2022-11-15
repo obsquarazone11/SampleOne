@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My Testsuite">
+<test name="My Test">
+<parameter name="para1" value="100"></parameter>
+<parameter name="para2" value="200"></parameter>
+<parameter name="para3" value="300"></parameter>
+<parameter name="para4" value="Testttt"></parameter>
+<classes>
+<class name="testengine.BasicAssertion">
+</class>
+</classes>
+</test>
+</suite>

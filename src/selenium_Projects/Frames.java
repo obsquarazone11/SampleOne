@@ -15,7 +15,7 @@ public class Frames {
 			WebDriver driver = new ChromeDriver();
 			 driver.get("https://demoqa.com/frames");
 			 driver.manage().window().maximize();
-			 driver.manage().window().maximize();
+			
 				driver.switchTo().frame("frame1");//Tracked using id
 				
 				//https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html

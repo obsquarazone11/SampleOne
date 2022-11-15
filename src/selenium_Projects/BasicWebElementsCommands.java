@@ -17,8 +17,8 @@ public class BasicWebElementsCommands {
 		/*
 		 * driver.findElement(By.id("loginform-username")).sendKeys("chithra");
 		 * WebElement pass=driver.findElement(By.id("loginform-password"));
-		 * pass.sendKeys("123"); WebElement
-		 * log=driver.findElement(By.xpath("//button[@class='btn btn-default']"));
+		 * pass.sendKeys("123");
+		 *  WebElement log=driver.findElement(By.xpath("//button[@class='btn btn-default']"));
 		 * log.click();
 		 */
 					
@@ -49,8 +49,9 @@ public class BasicWebElementsCommands {
 		 * 
 		 * WebElement submit=driver.findElement(By.xpath("//button[@type='submit']"));
 		 * submit.click(); String logincolor = submit.getCssValue("background-color");
-		 * System.out.println(logincolor); String fontsize =
-		 * submit.getCssValue("font-size"); System.out.println(fontsize);
+		 * System.out.println(logincolor); 
+		 * 
+		 * String fontsize = submit.getCssValue("font-size"); System.out.println(fontsize);
 		 * 
 		 */
 	}
